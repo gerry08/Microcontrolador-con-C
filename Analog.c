@@ -17,12 +17,12 @@ void main()
 
 SET_ADC_CHANNEL(0); // Seleccion del Canal 0 AN0 = RA0
 delay_us(20);  //tiempo de conversion 20us
-AN0read= read_adc(); //Lectura del ADC se guarda en
+AN0read= read_adc(); //Lectura del ADC se guarda en AN0read
 delay_us(20);//tiempo de Conversion
 
 SET_ADC_CHANNEL(1); // Seleccion del Canal 1 AN1 = RA1
 delay_us(20); //tiempo de conversion 20us
-AN1read= read_adc(); //Lectura del ADC se guarda en
+AN1read= read_adc(); //Lectura del ADC se guarda en AN1read
 delay_us(20);//tiempo de Conversion
 
 
