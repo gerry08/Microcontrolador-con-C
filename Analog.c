@@ -27,7 +27,7 @@ delay_us(20);//tiempo de Conversion
 
 
 output_B(AN0read);// Escritura por el puertoB de la Lectura AN0
-output_D(AN1read);// Escritura por el puertoB de la Lectura AN1
+output_D(AN1read);// Escritura por el puertoD de la Lectura AN1
 
 }
 
